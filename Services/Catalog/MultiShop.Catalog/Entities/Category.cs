@@ -9,7 +9,6 @@ namespace MultiShop.Catalog.Entities
         [BsonId]//MongoDb'de Id olduğunu belirtiyoruz.
         [BsonRepresentation(BsonType.ObjectId)]//Benzersiz bir Id olduğunu belirttik.
         public string CategoryId { get; set; }
-
         public string CategoryName { get; set; }
     }
 }
