@@ -1,6 +1,6 @@
-﻿namespace MultiShop.Order.Application.Features.CQRS.Results.AddressResults
+﻿namespace MultiShop.Order.Application.Features.CQRS.Commands.AddressCommands
 {
-    public class GetAddressByIdQueryResult
+    public class UpdateAddressCommand
     {
         public int AddressId { get; set; }
         public string UserId { get; set; }
