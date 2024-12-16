@@ -1,6 +1,8 @@
-﻿namespace MultiShop.Order.Domain.Entities
+﻿using MultiShop.Order.Domain.Entities;
+
+namespace MultiShop.Order.Application.Features.CQRS.Commands.OrderDetailCommands
 {
-    public class OrderDetail
+    public class UpdateOrderDetailCommand
     {
         public int OrderDetailId { get; set; }
         public string ProductId { get; set; }
@@ -9,6 +11,5 @@
         public decimal ProductTotalPrice { get; set; }
         public int ProductAmount { get; set; }
         public int OrderingId { get; set; }
-        public Ordering Ordering { get; set; }
     }
 }
