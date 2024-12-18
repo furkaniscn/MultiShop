@@ -10,7 +10,7 @@ namespace MultiShop.Order.Application.Interfaces
         Task CreateAsync(T entity);
         Task UpdateAsync(T entity);
         Task DeleteAsync(T entity);
-        //Entity framework'te filtreleme işlemi için bir lambda işareti vardır.
+        //Entity framework'te filtreleme işlemi için Expression adında bir lambda işareti vardır.
         //Func bir giriş bir çıkış değeri istiyor, giriş değeri T çıkış değeri bool'dur. filter ifadesi ise yolladığımız değeri tutar.
         Task<T> GetByFilterAsync(Expression<Func<T, bool>> filter);
     }
