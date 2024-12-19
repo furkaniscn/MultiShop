@@ -21,6 +21,7 @@ namespace MultiShop.Order.Application.Features.CQRS.Handlers.OrderDetailHandlers
             values.ProductTotalPrice = updateOrderDetailCommand.ProductTotalPrice;
             values.ProductAmount = updateOrderDetailCommand.ProductAmount;
             values.OrderingId = updateOrderDetailCommand.OrderingId;
+            await _repository.UpdateAsync(values);
         }
     }
 }

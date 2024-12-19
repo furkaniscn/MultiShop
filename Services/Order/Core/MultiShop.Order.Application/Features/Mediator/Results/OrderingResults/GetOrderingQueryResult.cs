@@ -1,6 +1,4 @@
-﻿using MultiShop.Order.Domain.Entities;
-
-namespace MultiShop.Order.Application.Features.Mediator.Results.OrderingResults
+﻿namespace MultiShop.Order.Application.Features.Mediator.Results.OrderingResults
 {
     public class GetOrderingQueryResult
     {
@@ -8,6 +6,5 @@ namespace MultiShop.Order.Application.Features.Mediator.Results.OrderingResults
         public string UserId { get; set; }
         public decimal TotalPrice { get; set; }
         public DateTime OrderDate { get; set; }
-        public List<OrderDetail> OrderDetails { get; set; }
     }
 }

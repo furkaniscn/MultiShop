@@ -18,7 +18,6 @@ namespace MultiShop.Order.Application.Features.Mediator.Handlers.OrderingHandler
         {
             var values = await _repository.GetByIdAsync(request.OrderingId);
             values.OrderDate = request.OrderDate;
-            values.OrderDetails = request.OrderDetails;
             values.TotalPrice = request.TotalPrice;
             values.UserId = request.UserId;
             await _repository.UpdateAsync(values);

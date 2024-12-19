@@ -21,7 +21,6 @@ namespace MultiShop.Order.Application.Features.Mediator.Handlers.OrderingHandler
             return new GetOrderingByIdQueryResult
             {
                 OrderDate = values.OrderDate,
-                OrderDetails = values.OrderDetails,
                 OrderingId = values.OrderingId,
                 TotalPrice = values.TotalPrice,
                 UserId = values.UserId

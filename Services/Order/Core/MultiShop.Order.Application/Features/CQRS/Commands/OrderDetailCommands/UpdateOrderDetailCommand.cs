@@ -1,6 +1,4 @@
-﻿using MultiShop.Order.Domain.Entities;
-
-namespace MultiShop.Order.Application.Features.CQRS.Commands.OrderDetailCommands
+﻿namespace MultiShop.Order.Application.Features.CQRS.Commands.OrderDetailCommands
 {
     public class UpdateOrderDetailCommand
     {
