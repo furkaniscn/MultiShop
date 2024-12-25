@@ -29,9 +29,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.Order.Persistence
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.Order.WebApi", "Services\Order\Presentation\MultiShop.Order.WebApi\MultiShop.Order.WebApi.csproj", "{D3063149-D9D3-4A17-B3BB-5A532DBCB9A9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityServer", "{A1909F85-1C80-4977-9BC3-91A141478407}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityServer", "{DB67CD38-4ACD-4C73-ADDE-B335D915D03C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.IdentityServer", "IdentityServer\MultiShop.IdentityServer\MultiShop.IdentityServer.csproj", "{7015F8A0-5056-4183-BEE2-96C8E42DA7F8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.IdentityServer", "IdentityServer\MultiShop.IdentityServer\MultiShop.IdentityServer.csproj", "{C101DE2F-22EA-431D-B06F-9CAB77716D29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,10 +63,10 @@ Global
 		{D3063149-D9D3-4A17-B3BB-5A532DBCB9A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3063149-D9D3-4A17-B3BB-5A532DBCB9A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3063149-D9D3-4A17-B3BB-5A532DBCB9A9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7015F8A0-5056-4183-BEE2-96C8E42DA7F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7015F8A0-5056-4183-BEE2-96C8E42DA7F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7015F8A0-5056-4183-BEE2-96C8E42DA7F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7015F8A0-5056-4183-BEE2-96C8E42DA7F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C101DE2F-22EA-431D-B06F-9CAB77716D29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C101DE2F-22EA-431D-B06F-9CAB77716D29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C101DE2F-22EA-431D-B06F-9CAB77716D29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C101DE2F-22EA-431D-B06F-9CAB77716D29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -84,7 +84,7 @@ Global
 		{B4405E1D-CEF9-4085-BA4D-D73236D90673} = {CDAD0470-7947-4178-AE59-4629137BD6C0}
 		{3EBDEC3E-FC6E-4252-87DD-7C43D17CB5E8} = {FBD9FBD5-2397-4D70-8B53-AB349C2A3A9E}
 		{D3063149-D9D3-4A17-B3BB-5A532DBCB9A9} = {040CCCCA-E60B-42AE-8775-71CF334F1644}
-		{7015F8A0-5056-4183-BEE2-96C8E42DA7F8} = {A1909F85-1C80-4977-9BC3-91A141478407}
+		{C101DE2F-22EA-431D-B06F-9CAB77716D29} = {DB67CD38-4ACD-4C73-ADDE-B335D915D03C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1830D00F-147B-4596-AD5B-5E3BFEDEC76A}
